@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.17.0
 
 ARG YARN_VERSION=1.16.0-1
 ARG NODE_VERSION=10.16.0-1nodesource1
