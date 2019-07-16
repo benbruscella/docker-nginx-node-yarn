@@ -5,5 +5,5 @@
  * node v10.16.0
 
 
-### docker build -t nginx.1.17.0-node.10.16.0-yarn.1.16.0 .
+### docker build -t nginx.1.17.0-node.10.16.0-yarn.1.16.0-git.2.11.0 .
 

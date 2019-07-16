@@ -10,7 +10,7 @@ ADD . /www
 # Update packages
 RUN apt-get update
 
-RUN apt-get install -yq curl apt-transport-https wget gnupg2 apt-utils
+RUN apt-get install -yq curl apt-transport-https wget gnupg2 apt-utils git zip
 
 # Node & yarn packages
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
@@ -37,3 +37,9 @@ RUN ls -al /www
 RUN node --version
 
 RUN yarn --version
+
+RUN git --version
+
+RUN zip --version
+
+
